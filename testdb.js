@@ -5,7 +5,7 @@ const connection = mysql2.createConnection({
     host: "localhost",
     database: "test_db",
     user: "root",
-    password: "Nongpann1!"
+    password: "password"
 });
 
 const app = express();
